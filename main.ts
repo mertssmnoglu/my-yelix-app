@@ -9,6 +9,13 @@ async function main() {
 
   await app.loadEndpoints(endpoints);
 
+  // Cors
+  app.cors({
+    origin: '*',
+    allowMethods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowHeaders: ['Content-Type'],
+  })
+
   app.docsManager.YelixOpenAPI?.customValidationDescription('min', () => {
     return 'hello world!';
   })
