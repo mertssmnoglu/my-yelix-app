@@ -24,6 +24,10 @@ async function main() {
         url: "http://localhost:3030",
         description: "Local Server",
       },
+      {
+        url: "https://mertimanolu-my-yelix-ap-20.deno.dev",
+        description: "Remote Server",
+      }
     ],
   });
 
