@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch --allow-net --allow-read --allow-env main.ts"
   },
   "imports": {
     "@murat/yelix": "jsr:@murat/yelix@^0.1.24",
