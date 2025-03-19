@@ -1,0 +1,89 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@murat/yelix@*": "0.1.24",
+    "jsr:@murat/yelix@~0.1.24": "0.1.24",
+    "jsr:@std/assert@1": "1.0.11",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "jsr:@std/path@1.0.8": "1.0.8",
+    "npm:@scalar/hono-api-reference@0.5.172": "0.5.172_hono@4.7.4",
+    "npm:hono@^4.7.0": "4.7.4",
+    "npm:zod@^3.24.1": "3.24.2"
+  },
+  "jsr": {
+    "@murat/yelix@0.1.23": {
+      "integrity": "61d56e25d351d65a21e618b8fde60b640eee2dbadf15cc1c373be017e763f6ac",
+      "dependencies": [
+        "jsr:@std/path",
+        "npm:@scalar/hono-api-reference",
+        "npm:hono",
+        "npm:zod"
+      ]
+    },
+    "@murat/yelix@0.1.24": {
+      "integrity": "ff0c78a3cdfcbacc03615d3a6272f57387be3cb00c10f2326e333a2223d3f933",
+      "dependencies": [
+        "jsr:@std/path",
+        "npm:@scalar/hono-api-reference",
+        "npm:hono",
+        "npm:zod"
+      ]
+    },
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    }
+  },
+  "npm": {
+    "@scalar/hono-api-reference@0.5.172_hono@4.7.4": {
+      "integrity": "sha512-2fd7PidgQWSzP8IKjApK16aN0lDtcV2muigBO/AIdMUzEowRlDFt6nhqrCDkFerX/6mCqmTewFczo731cL+kHg==",
+      "dependencies": [
+        "@scalar/types",
+        "hono"
+      ]
+    },
+    "@scalar/openapi-types@0.1.7": {
+      "integrity": "sha512-oOTG3JQifg55U3DhKB7WdNIxFnJzbPJe7rqdyWdio977l8IkxQTVmObftJhdNIMvhV2K+1f/bDoMQGu6yTaD0A=="
+    },
+    "@scalar/types@0.0.31": {
+      "integrity": "sha512-xagRDDqqf+tMTtChUggQHIzjMbfHe/3ntiZpF4RDgrU5yA3v/eYFwLjb+OgfcMpU1c02FSUeKa6FN7e7DZcXgg==",
+      "dependencies": [
+        "@scalar/openapi-types",
+        "@unhead/schema"
+      ]
+    },
+    "@unhead/schema@1.11.20": {
+      "integrity": "sha512-0zWykKAaJdm+/Y7yi/Yds20PrUK7XabLe9c3IRcjnwYmSWY6z0Cr19VIs3ozCj8P+GhR+/TI2mwtGlueCEYouA==",
+      "dependencies": [
+        "hookable",
+        "zhead"
+      ]
+    },
+    "hono@4.7.4": {
+      "integrity": "sha512-Pst8FuGqz3L7tFF+u9Pu70eI0xa5S3LPUmrNd5Jm8nTHze9FxLTK9Kaj5g/k4UcwuJSXTP65SyHOPLrffpcAJg=="
+    },
+    "hookable@5.5.3": {
+      "integrity": "sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ=="
+    },
+    "zhead@2.2.4": {
+      "integrity": "sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag=="
+    },
+    "zod@3.24.2": {
+      "integrity": "sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@murat/yelix@~0.1.24",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
